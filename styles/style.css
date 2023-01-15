@@ -1,0 +1,317 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;700&display=swap');
+
+
+
+body{
+    font-family: "Work Sans";
+    font-weight: 300;
+}
+
+.section-1{
+    display: flex; 
+    justify-content:space-between;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.topnav a{
+    
+    float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700px;
+}
+.brand{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.btn-1{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+    
+}
+.banner{
+    margin: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+.banner img{
+    width: 100%;
+    
+    /* margin-left: 203px;
+    margin-right: 300px;
+    padding-right: 100px; */
+    padding-bottom: 20px;
+    
+}
+.team-explore{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 17px;
+    /* gap: 100px; */
+    width: 35%;
+    column-gap: 17px;
+    margin-left: 226px;
+    margin-top: 30px;
+}
+.team-explore>div>img{
+    width: 200px;
+    height: 200px;
+}
+.member{
+    display: flex;
+}
+.features{
+    margin-top: 50px;
+    margin-left: 98px;
+    padding-top: 100px;
+    
+}
+.features>h2{
+    padding-right: 368px;
+}
+.features>p{
+    margin-bottom: 10px;
+    color: #727272;
+    font-size: 10px;
+    margin-right: 200px;
+}
+.btn-2>button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+.featur-color{
+    color:orange;
+}
+.q-list{
+    color: #727272;
+   
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 500px;
+    padding: 15px;
+    height: 118px;
+   margin-left: 30px;
+}
+.woman{
+    display: flex;
+
+    
+}
+.woman{
+    margin: 80px;
+}
+.enjoy{
+    padding: 40px;
+    margin-right: 126px;
+    margin-left: 4px;
+}
+.enjoy>h1{
+    border-left: 2px solid orange;
+    padding-right: 117px;
+}
+.paragraph{
+    margin-left: 40px;
+   
+}
+
+    
+.woman-2>img{
+    width: 140%;
+    height: 100%;
+margin-left: 38px;
+}
+.woman-2{
+    margin-top: 50px;
+    margin-right: 122px;
+}
+   
+
+.woman2>button{
+    
+}
+.fact{
+    padding-top: 50px;
+    margin-top: 80px;
+    padding-left: 111px;
+    padding-right: 633px;
+}
+.btn-3{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 50px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin-top:-40px;
+    margin-bottom: 10px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 5px;
+    width: 70%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 153px;
+    margin-top: 70px;
+}
+.icons>div{
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    padding-top: 17px;
+      width: 70%;
+    
+    
+
+}
+.logos:hover{
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+
+    background-color: #d51010;
+  width: 200px;
+  height: 200px;
+  rotate: 90deg;
+}
+.logos>img{
+    width: 18%
+
+    
+    
+    
+}
+.sponsar{
+    padding-top: 70px;
+    text-align: center;
+    padding-left: 100px;
+}
+.sponsar>p{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.sponsar-logo{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.sponsar-logo>div>img{
+    width: 88%;
+    height: 60%;
+
+}
+.last-class{
+    background-color:beige;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    margin-left: 120px;
+    margin-right: 83px;
+    margin-bottom: 50px;
+}
+.extra{
+    display: flex;
+    padding-left: 58px;
+    gap: 5px;
+
+
+}
+.extra>div>img{
+    width: 20px;
+    height: 20px;
+}
+.follow{
+    align-items: center;
+    padding-left: 477px;
+    margin-left: 100px;
+    
+}
+.last-class>h6{
+    padding-top: 24px;
+}
+@media screen and (max-width:688px) {
+    .section-1{
+        justify-content:space-between;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+    }
+    .brand{
+        margin-top: 100px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+        padding-left: 0px;
+        padding-right: 0px;
+        align-items: center;
+    }
+    .team-explore{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 17px;
+        /* gap: 100px; */
+        width: 35%;
+        column-gap: 17px;
+        margin-left: 226px;
+        margin-top: 30px;
+    }
+    .member{
+        flex-direction:column;
+    }
+    .woman{
+        flex-direction:column;
+    }
+    .enjoy{
+        padding: 5px;
+        margin-right:0px;
+        margin-left: 24px;}
+        .fact{
+            padding-top: 50px;
+            margin-top: 80px;
+            padding-left: 111px;
+            padding-right: 0px;}
+            .card{
+                margin-left: 5px;
+                padding: 11px;
+              width: 92%;
+              height: 15%;
+            }
+            .follow{
+                align-items: center;
+                padding-left: 184px;
+                margin-left: 100px}
+    
+}
